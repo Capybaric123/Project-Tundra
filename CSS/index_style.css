@@ -1,0 +1,111 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #444 url(../images/bg_body.png);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+
+.wrap {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 970px;
+    display: flex;
+}
+
+.main-body {
+    width: 790px;
+    background: #9c9c9c;
+}
+
+.sidebar {
+    width: 140px;
+    padding: 20px;
+    background: #979797;
+    flex-shrink: 0; /* Prevents sidebar from shrinking */
+    border-left: 1px solid #8f8f8f;
+}
+
+.sidebar-item ul li {
+    padding: 0, 0, 0, 15%;
+}
+
+.sidebar-item a {
+    color: #40659b;
+}
+
+.sidebar-item a:hover {
+    background: rgba(255, 255, 0, 0.2);
+}
+
+.changelog-item {
+    display: list-item;
+    margin-left: 2em;
+    font-size: 20px;
+    color: black;
+    text-align: left; /* Align text to the left */
+    list-style-position: inside; /* Ensures the bullets stay inside the container */
+}
+
+.comic {
+    background: #9c9c9c;
+    color: black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 970px;
+    align-self: center;
+}
+
+.comic-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.comic-list a {
+    flex: 0 0 15%;
+    text-align: center;
+    color: #40659b;
+}
+
+.latest-comic-header {
+    text-align: center;
+    color: black;
+    width: 970px;
+    align-self: center;
+}
+
+.anouncements {
+    text-align: center;
+    color: black;
+}
+
+.anouncement-paragraph {
+    font-size: 20px;
+    color: black;
+}
+
+.anouncement-paragraph a {
+    color: #40659b;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    font-size: 12px;
+    color: #666;
+}
