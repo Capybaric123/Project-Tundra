@@ -49,6 +49,23 @@ header {
     background: rgba(255, 255, 0, 0.2);
 }
 
+ul.table-of-contents ul li {
+	display: inline-block;
+	text-align: left;
+}
+
+div.table-of-contents {
+	text-align: center;
+}
+
+.table-of-contents a: {
+	color: #40659b;
+}
+
+.table-of-contents a:hover {
+	background: rgba(255, 255, 0, 0.2);
+}
+
 .changelog-item {
     display: list-item;
     margin-left: 2em;
